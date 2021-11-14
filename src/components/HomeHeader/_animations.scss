@@ -2,3 +2,14 @@
  * @author Ben Siebert <ben@mctzock.de>
  * @copyright (c) 2018-2021 Ben Siebert. All rights reserved.
  */
+
+@keyframes fade-from-top {
+  from {
+    transform: translateY(-99%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -8,7 +8,7 @@ import RHeader from "../../components/RHeader/RHeader";
 
 export default function NotFound() {
   return (
-    <>
+    <div style={{marginBottom: "3rem"}}>
       <RHeader
         title={
           <span className={"has-text-danger"}>
@@ -33,6 +33,6 @@ export default function NotFound() {
         We could not find the page you were looking for. Try going&nbsp;
         <Link to="/">Home</Link>
       </RHeader>
-    </>
+    </div>
   );
 }
