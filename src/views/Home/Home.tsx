@@ -5,12 +5,15 @@
 
 import * as React from "react";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
+import Why from "../../components/Why/Why";
 
 export default function Home() {
-
-    return (
-        <>
-            <HomeHeader />
-        </>
-    )
+  // <HomeHeader />
+  // <Why />
+  return (
+    <>
+      <HomeHeader />
+      <Why />
+    </>
+  );
 }
