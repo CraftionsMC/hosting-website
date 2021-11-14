@@ -1,7 +1,7 @@
 
-# craftions-base
+# hosting.craftions.net
 
-This is the base of all craftions web apps.
+Our hosting Website at hosting.craftions.net
 
 
 ## Run Locally
@@ -9,13 +9,13 @@ This is the base of all craftions web apps.
 Clone the project
 
 ```bash
-  git clone https://github.com/CraftionsMC/craftions-base
+  git clone https://github.com/CraftionsMC/hosting.craftions.net
 ```
 
 Go to the project directory
 
 ```bash
-  cd craftions-base
+  cd hosting.craftions.net
 ```
 
 Install dependencies

@@ -270,9 +270,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftions/craftions-base-app@workspace:.":
+"@craftions/hosting.craftions.net@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@craftions/craftions-base-app@workspace:."
+  resolution: "@craftions/hosting.craftions.net@workspace:."
   dependencies:
     "@babel/core": ^7.15.8
     "@craftions/bulma-dark": ^0.1.0-beta.1
