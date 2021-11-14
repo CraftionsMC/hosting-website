@@ -14,7 +14,7 @@ export default function Footer() {
     <>
       <BulmaFooter
         style={{
-          marginTop: "3rem",
+          marginTop: "0",
           marginBottom: "0",
         }}
       >

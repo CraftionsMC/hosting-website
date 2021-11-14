@@ -51,6 +51,9 @@ export default function NavigationBar() {
             Home
           </Navbar.Item>
           <Navbar.Item renderAs={Link} to={"/"}>
+            Why us?
+          </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/pricing"}>
             Pricing
           </Navbar.Item>
           <Navbar.Item renderAs={Link} to={"/features"}>

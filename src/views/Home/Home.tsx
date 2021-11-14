@@ -4,12 +4,13 @@
  */
 
 import * as React from "react";
+import HomeHeader from "../../components/HomeHeader/HomeHeader";
 
 export default function Home() {
 
     return (
         <>
-            <h1>Home</h1>
+            <HomeHeader />
         </>
     )
 }
