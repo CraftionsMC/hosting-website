@@ -14,7 +14,7 @@ export default function HomeHeader() {
           <h4 className="header-comp-name">Craftions</h4>
           <h1 className="header-prod-name">Hosting</h1>
           <div className="cr-buttons">
-            <button className="header-button">Start now</button>
+            <a className="header-button" href={"https://dash.hosting.craftions.net"} target={"_blank"} rel={"noreferrer"}>Start now</a>
             <button className="header-button">Products</button>
           </div>
         </div>
