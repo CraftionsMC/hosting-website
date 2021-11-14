@@ -14,7 +14,7 @@ export default function NavigationBar() {
         <Navbar.Item renderAs={Link} to={"/"}>
           <img src={logo} alt={"Craftions"} />
           <h1 className={"web_logo_name"} style={{ paddingLeft: "0.5rem" }}>
-            Craftions
+            Craftions Hosting
           </h1>
         </Navbar.Item>
         <Navbar.Burger
@@ -50,10 +50,24 @@ export default function NavigationBar() {
           <Navbar.Item renderAs={Link} to={"/"}>
             Home
           </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/"}>
+            Pricing
+          </Navbar.Item>
+          <Navbar.Item renderAs={Link} to={"/features"}>
+            Products
+          </Navbar.Item>
         </div>
         <div className={"navbar-end"}>
           <Navbar.Item>
             <div className="buttons">
+              <Button
+                color={"primary"}
+                onClick={() => {
+                  window.open("https://dash.hosting.craftions.net", "_blank");
+                }}
+              >
+                Dashboard
+              </Button>
               <Button
                 color={"link"}
                 onClick={() => {
