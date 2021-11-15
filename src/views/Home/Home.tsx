@@ -6,6 +6,7 @@
 import * as React from "react";
 import HomeHeader from "../../components/HomeHeader/HomeHeader";
 import Why from "../../components/Why/Why";
+import Products from "../../components/Products/Products";
 
 export default function Home() {
   // <HomeHeader />
@@ -14,6 +15,7 @@ export default function Home() {
     <>
       <HomeHeader />
       <Why />
+      <Products />
     </>
   );
 }

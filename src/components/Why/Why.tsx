@@ -13,7 +13,7 @@ export default function Why() {
   return (
     <>
       <div className="cr-why">
-        <h1 className={"why-title"}>Why Craftions Hosting?</h1>
+        <h1 className={"lg-title"}>Why Craftions Hosting?</h1>
         <div className="features" style={{ textAlign: "center" }}>
           <div className="feature">
             <div className="feature-icon" style={{ backgroundColor: "#0ed729" }}>

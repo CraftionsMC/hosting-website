@@ -47,23 +47,6 @@
 
     .cr-buttons {
       text-align: center;
-      .header-button {
-        background-color: transparent;
-        padding: 1rem;
-        font-size: 1.4rem !important;
-        color: #FAFAFA;
-        border-radius: 6px;
-        border: white 1px solid;
-        font-weight: bold;
-        cursor: pointer;
-        margin: .4rem;
-        transition: color 320ms ease, background-color 320ms ease;
-
-        &:hover {
-          background-color: #FAFAFA;
-          color: black;
-        }
-      }
     }
   }
 }

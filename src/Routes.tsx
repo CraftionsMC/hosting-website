@@ -8,6 +8,7 @@ import { Route, Switch } from "react-router-dom";
 import Home from "./views/Home/Home";
 import NotFound from "./views/NotFound/NotFound";
 import Why from "./components/Why/Why";
+import Products from "./components/Products/Products";
 
 export default function Routes() {
   return (
@@ -15,6 +16,7 @@ export default function Routes() {
       <Switch>
         <Route path={"/"} exact component={Home} />
         <Route path={"/why"} exact component={Why} />
+        <Route path={"/products"} exact component={Products} />
         <Route path="*" component={NotFound} />
       </Switch>
     </>
