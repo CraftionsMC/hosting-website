@@ -53,10 +53,7 @@ export default function NavigationBar() {
           <Navbar.Item renderAs={Link} to={"/why"}>
             Why us?
           </Navbar.Item>
-          <Navbar.Item renderAs={Link} to={"/pricing"}>
-            Pricing
-          </Navbar.Item>
-          <Navbar.Item renderAs={Link} to={"/features"}>
+          <Navbar.Item renderAs={Link} to={"/products"}>
             Products
           </Navbar.Item>
         </div>
